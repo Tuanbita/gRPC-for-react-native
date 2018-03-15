@@ -4,3 +4,9 @@ Make sure to run yarn or npm i once from the project root.
 
 adb reverse tcp:50051 tcp:50051
 react-native run-android
+
+unintall app in device
+run server-node
+into react-native dir: npm start
+on device: reload
+--->>> test
