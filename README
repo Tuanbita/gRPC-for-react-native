@@ -1,0 +1,6 @@
+Clone grpc-java and start the hello-world-server from the grpc-java/examples dir. See quickstart for more info. This server should start on localhost:50051.
+
+Make sure to run yarn or npm i once from the project root.
+
+adb reverse tcp:50051 tcp:50051
+react-native run-android
